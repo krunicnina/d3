@@ -1,5 +1,4 @@
 import React from 'react'
-import {BsArrowRight, BsArrowLeft} from 'react-icons/bs'
 import Hero from './Hero'
 const Products = () => {
   return (

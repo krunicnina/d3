@@ -1,8 +1,14 @@
 import React from 'react'
 import {AiOutlineInstagram, AiOutlineYoutube,AiOutlineFacebook} from 'react-icons/ai'
 const Footer = () => {
-  return (
-     <footer className='w-5/5 m-auto p-10 bg-gray-200'>
+  return (   <footer className='w-5/5 m-auto p-10 bg-gray-200 '> 
+      {/* //  <footer className='w-5/5 m-auto p-10 bg-gray-200 '> */}
+      {/* //  <footer class="w-full m-auto p-10 bg-gray-200'm-auto p-10  
+      //       fixed left-0 bottom-0
+      //       flex justify-center items-center
+          
+      //       ">  */}
+      {/* <footer class="relative py-20 flex flex-col items-center bg-cyan-900 overflow-hidden md:py-40"> */}
     {/* // <footer className='bg-gray-200'> */}
       <div className='md:flex grid grid-cols-2 gap justify-between items-start my-10'>
         <div className='space-y-5 py-5 border-b'>
@@ -15,17 +21,17 @@ const Footer = () => {
         </div>
         <div className='flex flex-col space-y-3'>
           <h1>Informacije</h1>
-          <a className='text-sm text-gray-400' href="/">O nama</a>
-          <a className='text-sm text-gray-400' href="/">Najpopularniji recepti</a>
-          <a className='text-sm text-gray-400' href="/">Servisi</a>
-          <a className='text-sm text-gray-400' href="/">Blog</a>
+           <a className='text-sm text-gray-400' >O nama</a>
+           <a className='text-sm text-gray-400' >Najpopularniji recepti</a>
+           <a className='text-sm text-gray-400' >Servisi</a>
+           <a className='text-sm text-gray-400' >Blog</a>
         </div>
         <div className='flex flex-col space-y-3'>
         <h1>Pravila zaštite privatnosti</h1>
-          <a className='text-sm text-gray-400' href="/">Opšte informacije</a>
-          <a className='text-sm text-gray-400' href="/">Način i svrhe obrade ličnih podataka</a>
-          <a className='text-sm text-gray-400' href="/">Kolačići</a>
-          <a className='text-sm text-gray-400' href="/">Zaštita ličnih podataka</a>
+           <a className='text-sm text-gray-400' >Opšte informacije</a>
+           <a className='text-sm text-gray-400' >Način i svrhe obrade ličnih podataka</a>
+           <a className='text-sm text-gray-400' >Kolačići</a>
+           <a className='text-sm text-gray-400' >Zaštita ličnih podataka</a>
         </div>
         <div className='flex flex-col space-y-3'>
         <h1>Kontakt</h1>

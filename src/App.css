@@ -1,10 +1,18 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0; 
   font-family: 'Poppins', sans-serif;
   background-color: #fcfcfc;
+  
 }
-
+.dodaj{
+  color:#000000;
+  background-color: rgb(79, 253, 88);
+}
+.izbaci{
+  color:#000000;
+  background-color: rgb(227, 27, 27);
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -63,16 +71,55 @@ body {
   height: 2px;
   background-color: #574c4c;
 }
+.row{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  /* display: flex;
+   flex-direction: row;   */
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(211, 211, 211);
+  /* border-radius: 10px; */
+  max-width: 100%;
+  column-gap: 80px; 
 
+}
+.card{
+   border: 2px inset rgb(209, 198, 231); 
 
+}
+.card-body {
+  margin: 10px;
+}
 
+.card-img-top{
+  height: 300px;
+   width: auto;  
+
+}
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
 }
-
-
+.dugmePretraga {
+  /* float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px; */
+  background: #ebebeb;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+ 
+.dugmePretraga:hover{
+  background-color: #f4f4f4;
+}
+::placeholder{
+  color: #ebebeb;
+}
 
 @media (max-width: 600px) {
   .menu-icon {
