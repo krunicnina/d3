@@ -2,14 +2,7 @@ import React from 'react'
 import {AiOutlineInstagram, AiOutlineYoutube,AiOutlineFacebook} from 'react-icons/ai'
 const Footer = () => {
   return (   <footer className='w-5/5 m-auto p-10 bg-gray-200 '> 
-      {/* //  <footer className='w-5/5 m-auto p-10 bg-gray-200 '> */}
-      {/* //  <footer class="w-full m-auto p-10 bg-gray-200'm-auto p-10  
-      //       fixed left-0 bottom-0
-      //       flex justify-center items-center
-          
-      //       ">  */}
-      {/* <footer class="relative py-20 flex flex-col items-center bg-cyan-900 overflow-hidden md:py-40"> */}
-    {/* // <footer className='bg-gray-200'> */}
+
       <div className='md:flex grid grid-cols-2 gap justify-between items-start my-10'>
         <div className='space-y-5 py-5 border-b'>
           <h1 className='text-3xl font-bold'>Pratite nas na mrežama!</h1>

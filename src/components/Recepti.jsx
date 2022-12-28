@@ -5,12 +5,12 @@ function Recepti({recepti,kriterijum,dodaj}) {
     <div className="row">
         {kriterijum===""
         ?
-        recepti.map((r)=> <div  key={r.id} className="col-sm-3"><Card dodaj={dodaj} key={r.id} r={r} mod={1}></Card><br /></div>)
+        recepti.map((r)=> <div  key={r.id} ><Card dodaj={dodaj} key={r.id} r={r} mod={1}></Card><br /></div>)
         :
         <>
         {recepti
         .filter((r)=>r.naziv.toLowerCase().includes(kriterijum.toLowerCase()))
-        .map((r)=> <div  key={r.id} className="col-sm-3"><Card dodaj={dodaj}  key={r.id} r={r} mod={1}></Card><br /></div>)}
+        .map((r)=> <div  key={r.id} ><Card dodaj={dodaj}  key={r.id} r={r} mod={1}></Card><br /></div>)}
 
         </>
         }
